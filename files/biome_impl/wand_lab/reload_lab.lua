@@ -1,5 +1,5 @@
 -- 加载实验室配置模块
-local lab_config = dofile("mods/auto_wand_edit/files/scripts/lab_config.lua")
+local lab_config = dofile("mods/auto_wand_edit/files/scripts/config/lab_config.lua")
 
 -- 当物品被拾取时调用的函数
 -- 参数: entity_item 表示被拾取的实体

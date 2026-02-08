@@ -4,7 +4,7 @@
 local player_controller = {}
 
 -- 加载实验室配置模块
-local lab_config = dofile("mods/auto_wand_edit/files/scripts/lab_config.lua")
+local lab_config = dofile("mods/auto_wand_edit/files/scripts/config/lab_config.lua")
 
 -- 模块状态表
 local state = {

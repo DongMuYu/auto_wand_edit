@@ -5,35 +5,35 @@ mod_name = "auto_wand_edit"
 -- 加载 Noita 的工具函数库
 dofile_once("data/scripts/lib/utilities.lua");
 -- 加载调试器核心模块
-dofile_once(base_dir .. "files/scripts/debugger.lua");
+dofile_once(base_dir .. "files/scripts/debug/debugger.lua");
 -- 加载法术信息模块
-dofile_once(base_dir .. "files/scripts/spell_info.lua");
+dofile_once(base_dir .. "files/scripts/wand/spell_info.lua");
 -- 加载工具函数模块
-dofile_once(base_dir .. "files/scripts/utils.lua");
+dofile_once(base_dir .. "files/scripts/utils/utils.lua");
 -- 加载UI模块
 dofile_once(base_dir .. "files/ui.lua");
 -- 加载施法状态属性配置
-dofile_once(base_dir .. "files/scripts/cast_state_properties.lua");
+dofile_once(base_dir .. "files/scripts/utils/cast_state_properties.lua");
 -- 加载玩家信息管理模块
-local player_info_manager = dofile(base_dir .. "files/scripts/player_info.lua");
+local player_info_manager = dofile(base_dir .. "files/scripts/player/player_info.lua");
 -- 加载法杖生成器模块
-local wand_generator = dofile(base_dir .. "files/scripts/wand_generator.lua");
+local wand_generator = dofile(base_dir .. "files/scripts/wand/wand_generator.lua");
 -- 加载GUI管理器模块
-local gui_manager = dofile(base_dir .. "files/scripts/gui_manager.lua");
+local gui_manager = dofile(base_dir .. "files/scripts/gui/gui_manager.lua");
 -- 加载自动法杖编辑器模块
-local auto_wand_editor = dofile(base_dir .. "files/scripts/auto_wand_editor.lua");
+local auto_wand_editor = dofile(base_dir .. "files/scripts/core/auto_wand_editor.lua");
 -- 加载假人生成器模块
-local dummy_spawner = dofile(base_dir .. "files/scripts/dummy_spawner.lua");
+local dummy_spawner = dofile(base_dir .. "files/scripts/testing/dummy_spawner.lua");
 -- 加载世界管理器模块
-local world_manager = dofile(base_dir .. "files/scripts/world_manager.lua");
+local world_manager = dofile(base_dir .. "files/scripts/world/world_manager.lua");
 -- 加载玩家控制模块
-local player_controller = dofile(base_dir .. "files/scripts/player_controller.lua");
+local player_controller = dofile(base_dir .. "files/scripts/player/player_controller.lua");
 -- 加载投射物管理模块
-local projectile_manager = dofile(base_dir .. "files/scripts/projectile_manager.lua");
+local projectile_manager = dofile(base_dir .. "files/scripts/combat/projectile_manager.lua");
 -- 加载伤害统计模块
-local damage_stats = dofile(base_dir .. "files/scripts/damage_stats.lua")
+local damage_stats = dofile(base_dir .. "files/scripts/testing/damage_stats.lua")
 -- 加载实验室配置模块
-local lab_config = dofile(base_dir .. "files/scripts/lab_config.lua");
+local lab_config = dofile(base_dir .. "files/scripts/config/lab_config.lua");
 
 -- 从GUI管理器获取导出的变量
 local gui = gui_manager.gui

@@ -65,7 +65,7 @@ end
 -- 将当前序列配置到手中的法杖
 -- 将之前配置的法术序列应用到玩家手中的法杖
 function spell_selector.apply_to_wand()
-    local wand_manager = dofile("mods/auto_wand_edit/files/scripts/wand_manager.lua")
+    local wand_manager = dofile("mods/auto_wand_edit/files/scripts/wand/wand_manager.lua")
     
     local wand_id = wand_manager.get_player_wand()
     if(wand_id == nil) then

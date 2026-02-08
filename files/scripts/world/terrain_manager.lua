@@ -4,7 +4,7 @@
 local terrain_manager = {}
 
 -- 加载实验室配置模块
-local lab_config = dofile("mods/auto_wand_edit/files/scripts/lab_config.lua")
+local lab_config = dofile("mods/auto_wand_edit/files/scripts/config/lab_config.lua")
 
 -- 重新生成地形
 -- 加载wand_lab实体来重新生成测试场地地形

@@ -1,5 +1,5 @@
 -- 加载实验室配置模块
-local lab_config = dofile("mods/auto_wand_edit/files/scripts/lab_config.lua")
+local lab_config = dofile("mods/auto_wand_edit/files/scripts/config/lab_config.lua")
 
 -- 初始化法杖实验室的位置坐标
 local x, y = lab_config.config.lab_x, lab_config.config.lab_y

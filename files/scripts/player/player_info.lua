@@ -9,7 +9,7 @@
 local player_info_manager = {}
 
 -- 加载实验室配置模块
-local lab_config = dofile("mods/auto_wand_edit/files/scripts/lab_config.lua")
+local lab_config = dofile("mods/auto_wand_edit/files/scripts/config/lab_config.lua")
 
 -- 获取玩家信息
 -- 返回一个包含玩家所有相关信息的表

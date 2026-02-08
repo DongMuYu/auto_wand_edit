@@ -4,15 +4,15 @@
 local auto_wand_editor = {}
 
 -- 加载各个功能模块
-local player_info_manager = dofile("mods/auto_wand_edit/files/scripts/player_info.lua")
-local lab_config = dofile("mods/auto_wand_edit/files/scripts/lab_config.lua")
-local dummy_spawner = dofile("mods/auto_wand_edit/files/scripts/dummy_spawner.lua")
-local wand_manager = dofile("mods/auto_wand_edit/files/scripts/wand_manager.lua")
-local player_controller = dofile("mods/auto_wand_edit/files/scripts/player_controller.lua")
-local projectile_manager = dofile("mods/auto_wand_edit/files/scripts/projectile_manager.lua")
-local terrain_manager = dofile("mods/auto_wand_edit/files/scripts/terrain_manager.lua")
-local shooter = dofile("mods/auto_wand_edit/files/scripts/shooter.lua")
-local spell_selector = dofile("mods/auto_wand_edit/files/scripts/spell_selector.lua")
+local player_info_manager = dofile("mods/auto_wand_edit/files/scripts/player/player_info.lua")
+local lab_config = dofile("mods/auto_wand_edit/files/scripts/config/lab_config.lua")
+local dummy_spawner = dofile("mods/auto_wand_edit/files/scripts/testing/dummy_spawner.lua")
+local wand_manager = dofile("mods/auto_wand_edit/files/scripts/wand/wand_manager.lua")
+local player_controller = dofile("mods/auto_wand_edit/files/scripts/player/player_controller.lua")
+local projectile_manager = dofile("mods/auto_wand_edit/files/scripts/combat/projectile_manager.lua")
+local terrain_manager = dofile("mods/auto_wand_edit/files/scripts/world/terrain_manager.lua")
+local shooter = dofile("mods/auto_wand_edit/files/scripts/combat/shooter.lua")
+local spell_selector = dofile("mods/auto_wand_edit/files/scripts/wand/spell_selector.lua")
 
 -- 伤害统计模块引用（在init.lua中设置）
 local damage_stats_ref = nil

@@ -1,4 +1,4 @@
-dofile_once(base_dir .. "files/scripts/utils.lua");
+dofile_once(base_dir .. "files/scripts/utils/utils.lua");
 
 cast_state_properties = {
     -- {name = "action_id", get = function(c) return c.action_id end, default = ""},

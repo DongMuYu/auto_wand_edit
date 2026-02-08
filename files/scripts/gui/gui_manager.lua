@@ -5,7 +5,7 @@
 dofile_once("mods/auto_wand_edit/files/lib/helper.lua")
 
 -- 加载法杖管理模块
-local wand_manager = dofile("mods/auto_wand_edit/files/scripts/wand_manager.lua")
+local wand_manager = dofile("mods/auto_wand_edit/files/scripts/wand/wand_manager.lua")
 
 -- 创建 GUI 实例
 local gui = GuiCreate()

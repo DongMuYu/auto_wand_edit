@@ -4,7 +4,7 @@
 local damage_stats = {}
 
 -- 加载实验室配置模块
-local lab_config = dofile("mods/auto_wand_edit/files/scripts/lab_config.lua")
+local lab_config = dofile("mods/auto_wand_edit/files/scripts/config/lab_config.lua")
 
 -- 获取指定名称的VariableStorageComponent组件
 -- @param entity_id 实体ID
