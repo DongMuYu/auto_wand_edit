@@ -1,0 +1,11 @@
+<Entity name="auto_wand_edit_hp_fixer" >
+	<LuaComponent
+		script_source_file="mods/auto_wand_edit/files/entities/hp_fixer.lua"
+		execute_every_n_frame="1">
+	</LuaComponent>
+	<LuaComponent
+		script_source_file="mods/auto_wand_edit/files/entities/hp_fixer_removed.lua"
+		execute_on_removed="1"
+		execute_every_n_frame="-1">
+	</LuaComponent>
+</Entity>
